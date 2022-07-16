@@ -1,0 +1,45 @@
+#nav-container{
+    min-height: 50px;
+}
+
+#logo{
+    width: 20%;
+    float: left;
+}
+
+#navbar{
+    width: 50%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: black;
+}
+
+#navbar ul li a.active {
+    background-color: orange;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    background-color: #8f5f07;
+    color: #fff;
+}
+
+#logo{
+    width:65px
+}
